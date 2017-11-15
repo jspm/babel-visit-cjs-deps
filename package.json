@@ -1,0 +1,24 @@
+{
+  "name": "babel-visit-cjs-deps",
+  "version": "0.1.0",
+  "description": "Babel plugin to extract CJS require dependencies",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jspm/babel-visit-cjs-deps.git"
+  },
+  "author": "guybedford",
+  "license": "MIT",
+  "main": "visit-cjs-deps.js",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "babel-types": "^6.26.0"
+  }
+}
